@@ -29,7 +29,7 @@ Here are the changes:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/notion-clone-tutorial.git
+https://github.com/nebioudaniel/notion-clone.git
 ```
 
 ### Install packages
