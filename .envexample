@@ -1,0 +1,9 @@
+CONVEX_DEPLOYMENT=dev:dusty-whale-777 # team: nebioudaniel, project: notion-clone-tutorial-bee51
+
+NEXT_PUBLIC_CONVEX_URL=https://dusty-whale-777.convex.cloud
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_Y29zbWljLXNoaW5lci05OC5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_7gGJbLmvENMrs9v4boAtLTr9rdJ6swEnS9asynGcGE
+
+EDGE_STORE_ACCESS_KEY=KPcR3mIk3NpSP22ggKJtQGvxSI2fnrGX
+EDGE_STORE_SECRET_KEY=f6UdVzEIOM7X9TdcGtX9BMy81gYEz4UJxwF5M4lIRhnIcNMR
