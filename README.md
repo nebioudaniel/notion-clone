@@ -22,6 +22,7 @@ Here are the changes:
 - Landing page 🏠
 - Cover image of each document 📷
 - Recover deleted files 🔙📄
+
 ![Uploading Screenshot 2024-03-01 at 12.52.01 PM.png…]()
 
 ### Prerequisites
