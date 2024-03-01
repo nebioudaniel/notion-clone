@@ -23,7 +23,8 @@ Here are the changes:
 - Cover image of each document 📷
 - Recover deleted files 🔙📄
 
-![Uploading Screenshot 2024-03-01 at 12.52.01 PM.png…]()
+<img width="1680" alt="Screenshot 2024-03-01 at 12 52 01 PM" src="https://github.com/nebioudaniel/notion-clone/assets/124292845/e765b45e-7a60-4da6-b81c-60e7a9f581bf">
+
 
 ### Prerequisites
 
