@@ -1,4 +1,5 @@
 # Notion Clone: Next.js 13, React, Convex, Tailwind 
+<img width="1673" alt="Screenshot 2024-03-01 at 12 51 19 PM" src="https://github.com/nebioudaniel/notion-clone/assets/124292845/d800489a-be19-4f48-8d4b-6d51c330d5f0">
 
 Key Features:
 
@@ -21,6 +22,7 @@ Here are the changes:
 - Landing page 🏠
 - Cover image of each document 📷
 - Recover deleted files 🔙📄
+![Uploading Screenshot 2024-03-01 at 12.52.01 PM.png…]()
 
 ### Prerequisites
 
