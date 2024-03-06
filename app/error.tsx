@@ -1,11 +1,13 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 
-const Error = () => {
+const Error = ({ errorMessage }) => {
+  const refreshPage = () => {
+    window.location.reload();
+  };
+
   return ( 
     <div className="h-full flex flex-col items-center justify-center space-y-4">
       <Image
@@ -25,11 +27,17 @@ const Error = () => {
       <h2 className="text-xl font-medium">
         Something went wrong!
       </h2>
-      <Button asChild>
-        <Link href="/documents">
-          Go back
-        </Link>
-      </Button>
+      {errorMessage && (
+        <p className="text-red-500">{errorMessage}</p>
+      )}
+      <div className="flex space-x-4">
+        <Button onClick={refreshPage}>Refresh</Button>
+        <Button asChild>
+          <Link href="/documents">
+            Go back
+          </Link>
+        </Button>
+      </div>
     </div>
   );
 }
