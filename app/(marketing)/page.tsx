@@ -1,18 +1,18 @@
 import { Footer } from "./_components/footer";
 import { Heading } from "./_components/heading";
 import { Heroes } from "./_components/heroes";
+import { Layout } from "./_components/layout"; // Import the Layout component
 
 const MarketingPage = () => {
+  // Pass title and description props to Layout for customization
+  const title = "Your Marketing Page Title";
+  const description = "A compelling description of your marketing page.";
+
   return (
-    <div className="min-h-full flex flex-col dark:bg-[#1F1F1F]">
-      <div className="flex flex-col items-center justify-center md:justify-start text-center gap-y-8 flex-1 px-6 pb-10">
-        <Heading />
-        <Heroes />
-      </div>
-      <Footer />
-    </div>
+    <Layout title={title} description={description}>
+      {/* Rest of your content goes here */}
+    </Layout>
   );
-}
+};
 
 export default MarketingPage;
-
