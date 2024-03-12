@@ -24,7 +24,8 @@ const MainLayout = ({
   }
 
   if (!isAuthenticated) {
-    return redirect("/");
+    redirect("/");
+    return null;
   }
 
   return ( 
